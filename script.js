@@ -1,7 +1,7 @@
 let theTime = document.createElement("p");
 let time = new Date();
 
-function loadTime() {
+const loadTime = () => {
     let currentDate = new Date();
 
     let secs = pad(currentDate.getSeconds());
